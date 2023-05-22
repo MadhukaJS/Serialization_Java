@@ -15,4 +15,11 @@ public class Cat extends Animal{
     public void setColor(String color) {
         this.color = color;
     }
+
+//    @Override
+//    public String toString() {
+//        return "Cat{ speed=" +getSpeed()+
+//                "color='" + this.color +
+//                '}';
+//    }
 }
