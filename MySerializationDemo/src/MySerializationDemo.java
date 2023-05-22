@@ -3,5 +3,9 @@ public class MySerializationDemo {
             Serializer ser=new Serializer();
             Cat c = new Cat(12,"black");
             ser.SerializerCat(c);
+
+
+            Deserializer des=new Deserializer();
+            des.DeserializerCat();
     }
 }

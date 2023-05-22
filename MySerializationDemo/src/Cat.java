@@ -16,10 +16,10 @@ public class Cat extends Animal{
         this.color = color;
     }
 
-//    @Override
-//    public String toString() {
-//        return "Cat{ speed=" +getSpeed()+
-//                "color='" + this.color +
-//                '}';
-//    }
+    @Override
+    public String toString() {
+        return "Cat{ speed=" +getSpeed()+
+                "color='" + this.color +
+                '}';
+    }
 }
